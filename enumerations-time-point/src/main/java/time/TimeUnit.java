@@ -10,9 +10,7 @@ public int getValueOfSeconds(){
     return valueOfSeconds;
 }
 public float between(TimePoint p1, TimePoint p2) {
-    //TODO 
-    //return amount of "this" time units between p2 and p1
-    //if p2 less than p1 a negative value should be returned
-    return -1;
-}
+    return (p2.getAmount() * p2.getTimeUnit().getValueOfSeconds()
+                - p1.getAmount() * p1.getTimeUnit().getValueOfSeconds()) / this.valueOfSeconds;
+    }
 }
