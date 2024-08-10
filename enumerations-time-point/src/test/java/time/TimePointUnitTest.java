@@ -1,4 +1,4 @@
-package telran.time;
+package time;
 
 public class TimePointUnitTest {
 //TODO
