@@ -1,4 +1,4 @@
-package telran.time;
+package time;
 
 public class TimePoint implements Comparable<TimePoint>{
     private float amount;

@@ -1,4 +1,4 @@
-package telran.time;
+package time;
 
 public class FutureProximityAdjuster implements TimePointAdjuster{
     TimePoint [] timePoints;

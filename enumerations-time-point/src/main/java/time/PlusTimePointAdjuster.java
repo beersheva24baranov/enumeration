@@ -1,4 +1,4 @@
-package telran.time;
+package time;
 
 public class PlusTimePointAdjuster implements TimePointAdjuster{
     private int amount;

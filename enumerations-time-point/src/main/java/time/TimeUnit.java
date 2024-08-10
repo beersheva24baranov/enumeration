@@ -1,4 +1,4 @@
-package telran.time;
+package time;
 
 public enum TimeUnit {
 SECOND(1), MINUTE(60), HOUR(3600);
