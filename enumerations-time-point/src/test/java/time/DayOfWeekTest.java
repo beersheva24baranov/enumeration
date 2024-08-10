@@ -3,9 +3,6 @@ package time;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
-
-import java.time.DayOfWeek;
-
 import org.junit.jupiter.api.Test;
 
 public class DayOfWeekTest {
