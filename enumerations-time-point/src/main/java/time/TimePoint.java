@@ -8,8 +8,8 @@ public class TimePoint implements Comparable<TimePoint>{
         this.timeUnit = timeUnit;
     }
     @Override
-    public int compareTo(TimePoint arg0) {
-        return Float.compare(this.convert(TimeUnit.SECOND).getAmount(), arg0.convert(TimeUnit.SECOND).getAmount());
+    public int compareTo(TimePoint argument) {
+        return Float.compare(this.convert(TimeUnit.SECOND).getAmount(), argument.convert(TimeUnit.SECOND).getAmount());
     }
     public float getAmount(){
         return amount;

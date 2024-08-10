@@ -9,8 +9,8 @@ TimeUnit(int valuOfSeconds) {
 public int getValueOfSeconds(){
     return valueOfSeconds;
 }
-public float between(TimePoint p1, TimePoint p2) {
-    return (p2.getAmount() * p2.getTimeUnit().getValueOfSeconds()
-                - p1.getAmount() * p1.getTimeUnit().getValueOfSeconds()) / this.valueOfSeconds;
+public float between(TimePoint point1, TimePoint point2) {
+    return (point2.getAmount() * point2.getTimeUnit().getValueOfSeconds()
+                - point1.getAmount() * point1.getTimeUnit().getValueOfSeconds()) / this.valueOfSeconds;
     }
 }
